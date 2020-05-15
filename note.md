@@ -17,8 +17,11 @@
 ##### 创建测试文件: touch test.md 
 ##### 添加改动: git add .
 ##### 提交代码: git commit -m "测试重命名"
-##### 使用git rm test.md命令移除了提交的test.md
-##### 再使用命令来重命名文件: git mv test.md new.md
+##### 直接将test.md的名字改为new.md, 再用git status可以看到删除了test.md, 增加了new.md没有提交变更
+##### 使用命令移除test.md的提交记录: git rm test.md
+##### 使用命令添加new.md来提交new.md: git add new.md
+##### 从而成功的在文件系统上手动的将文件重命名
 ##### 提交: git add .
 		  : git commit -m "提交"
 		  : git push
+
