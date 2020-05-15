@@ -35,7 +35,7 @@
 ##### 删除整个目录的时候使用-r 表示递归的删除目录中的所有的文件: git rm -r test
 
 ## 6. 恢复删除的文件
-##### git checkout HEAD -- 删除的文件
+##### git checkout HEAD -- 恢复到上一次提交
 ##### 创建文件: touch new.md
 ##### 提交代码变动: git add .
 				  : git comm-m "add new.md"
