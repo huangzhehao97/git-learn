@@ -25,3 +25,6 @@
 		  : git commit -m "提交"
 		  : git push
 
+## 4. 使用git命令来重命名文件
+##### 使用git mv 命令来实现文件的重命名和移动
+##### git mv fileName newFileName
