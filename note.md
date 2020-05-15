@@ -9,4 +9,6 @@
 [alias]
 	co = checkout
 ```
-
+## git diff 用来查看文件第区别
+##### git diff 没有指定文件就是比较所有文件的前后区别
+##### git add .之后, 就提交了, 就不再显示区别了
