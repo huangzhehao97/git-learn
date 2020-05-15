@@ -45,3 +45,12 @@
 
 ## 7. 恢复文件到历史版本
 ##### 使用git commit的id号恢复到对应的版本
+##### 使用命令重命名文件: git mv new.md new2.md
+##### 提交这次的代码的改动
+##### 修改new2.md文件内的内容
+##### 提交: git add .
+		  : git commit "修改new2.md"的内容
+##### 使用git log --oneline来方便的查看所有的提交, 第一行是独一无二的commit id
+##### shiyo使用命令: git revert [commit id], 从而使得代码恢复到[commit id]对应的提交的时候的代码的情况
+##### 以上的代码实现了代码通过commit id跳转到对应的代码
+
