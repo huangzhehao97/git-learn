@@ -65,3 +65,8 @@
 ##### 输出几天前的git 日志
 ##### git log --oneline --before="1 day" 一天前的git日志
 
+## 10. 创建分支
+##### 使用命令: git branch mobile-feature
+##### 切换分支到创建的mobile-feature的分支: git checkout mobile-feature
+##### 查看当前的分支: git branch
+
