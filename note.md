@@ -62,4 +62,6 @@
 ## 9. 日志
 ##### 
 ##### git log --oneline --before="2014-07-05" 用来查找一定日期之前的日志信息, 同时设置输出的样式
-##### 打印在某一个时间之前的日志 git log --oneline --before="2020-05-16"
+##### 输出几天前的git 日志
+##### git log --oneline --before="1 day" 一天前的git日志
+
