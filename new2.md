@@ -1,1 +1,1 @@
-用来测试命令: git checkout HEAD -- new.md
+添加测试的代码
