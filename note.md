@@ -42,3 +42,6 @@
 ##### 删除文件: git rm new.md
 ##### 恢复删除的文件: git checkout HEAD -- new.md
 ##### 提交代码: git push
+
+## 7. 恢复文件到历史版本
+##### 使用git commit的id号恢复到对应的版本
